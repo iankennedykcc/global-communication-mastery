@@ -105,7 +105,7 @@ function Hero() {
           </div>
 
           <dl className="mt-20 grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-2xl border-t border-ivory/15 pt-10">
-            <Stat value="10+ yrs" label="International experience" />
+            <Stat value="9+ yrs" label="International experience" />
             <Stat value="5 Global Regions" label="LATAM, NORTH AMERICA, EUROPE, MIDDLE EAST, ASIA - PACIFIC" />
             <Stat value="100%" label="Tailored to your business context" />
           </dl>
@@ -163,7 +163,7 @@ function Overview() {
 
             <div className="mt-12 grid sm:grid-cols-3 gap-px bg-border">
               <Tile k="Format" v="Live virtual or in-person, modular" />
-              <Tile k="Duration" v="6 – 12 weeks, customised" />
+              <Tile k="Duration" v="6 – 12 weeks, customized" />
               <Tile k="Cohort" v="1:1, small group, or team intact" />
             </div>
           </div>
@@ -346,7 +346,7 @@ function Facilitator() {
 
             <div className="mt-8 space-y-5 text-navy/85 leading-relaxed font-light">
               <p>
-                A bilingual US-native communication consultant and coach with over a decade
+                A bilingual US-native communication consultant and coach with over 9 years
                 of international experience across Latin America, North America, Europe, the
                 Middle East and Asia. Ian works with professionals and teams inside
                 multinationals where English carries the weight of the business.
@@ -354,15 +354,15 @@ function Facilitator() {
               <p>
                 His approach blends executive communication, structured thinking and
                 cross-cultural fluency — grounded in real business contexts rather than
-                generic curriculum. Clients have included professionals from Enel, BHP and
-                other global organisations.
+                generic curriculum. Clients have included professionals from PLACEHOLDER CLIENTS and
+                other global organizations.
               </p>
             </div>
 
             <div className="mt-10 grid sm:grid-cols-3 gap-px bg-border">
               <Tile k="Based in" v="Santiago, Chile" />
               <Tile k="Languages" v="English · Spanish" />
-              <Tile k="Certification" v="TEFL · 10+ yrs" />
+              <Tile k="Certification" v="Teaching English as a Foreign Language · 9+ yrs" />
             </div>
           </div>
         </div>
@@ -385,7 +385,7 @@ function CTA() {
           <span className="h-px w-8 bg-gold" />
         </div>
         <h2 className="text-4xl lg:text-6xl text-ivory leading-[1.05]">
-          Bring this workshop to <em className="italic font-light text-gold">your organisation.</em>
+          Bring this workshop to <em className="italic font-light text-gold">your organization.</em>
         </h2>
         <p className="mt-8 text-lg lg:text-xl text-ivory/70 max-w-2xl mx-auto font-light leading-relaxed">
           Request a 20-minute briefing call. We will discuss your team, your
