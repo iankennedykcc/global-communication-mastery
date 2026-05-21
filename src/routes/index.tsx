@@ -407,8 +407,8 @@ function CTA() {
           </a>
         </div>
 
-        <div className="mt-16 pt-10 border-t border-ivory/15 grid sm:grid-cols-3 gap-8 text-left max-w-3xl mx-auto">
-          <ContactBlock label="Email" value="kennedyconsultingcoaching@gmail.com" />
+        <div className="mt-16 pt-10 border-t border-ivory/15 grid grid-cols-1 sm:grid-cols-3 gap-12 lg:gap-16 text-left">
+          <ContactBlock label="Email" value="kennedyconsultingcoaching@gmail.com" nowrap />
           <ContactBlock label="WhatsApp" value="+56 9 7387 6381" />
           <ContactBlock label="LinkedIn" value="in/ianpatrickkennedy" href="https://www.linkedin.com/in/ianpatrickkennedy" />
         </div>
