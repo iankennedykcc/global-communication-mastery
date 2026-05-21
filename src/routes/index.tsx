@@ -106,7 +106,7 @@ function Hero() {
 
           <dl className="mt-20 grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-2xl border-t border-ivory/15 pt-10">
             <Stat value="10+ yrs" label="International experience" />
-            <Stat value="4 regions" label="LATAM · NA · EU · MENA · APAC" />
+            <Stat value="4 Global Regions" label="LATAM, NORTH AMERICA, EUROPE, MIDDLE EAST, ASIA - PACIFIC" />
             <Stat value="100%" label="Tailored to your business context" />
           </dl>
         </div>
