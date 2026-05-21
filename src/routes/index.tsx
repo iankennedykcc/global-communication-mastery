@@ -362,7 +362,7 @@ function Facilitator() {
             <div className="mt-10 grid sm:grid-cols-3 gap-px bg-border">
               <Tile k="Based in" v="Santiago, Chile" />
               <Tile k="Languages" v="English · Spanish" />
-              <Tile k="Certification" v="Teaching English as a Foreign Language · 9+ yrs" />
+              <Tile k="Certification" v="Teaching English as a Foreign Language (TEFL) · 9+ yrs" />
             </div>
           </div>
         </div>
