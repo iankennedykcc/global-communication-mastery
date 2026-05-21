@@ -417,8 +417,8 @@ function CTA() {
   );
 }
 
-function ContactBlock({ label, value, href }: { label: string; value: string; href?: string }) {
-  const inner = <span className="text-ivory hover:text-gold transition">{value}</span>;
+function ContactBlock({ label, value, href, nowrap }: { label: string; value: string; href?: string; nowrap?: boolean }) {
+  const inner = <span className={`text-ivory hover:text-gold transition ${nowrap ? 'whitespace-nowrap' : ''}`}>{value}</span>;
   return (
     <div>
       <div className="eyebrow text-gold/80 mb-2">{label}</div>
