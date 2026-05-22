@@ -436,7 +436,7 @@ function Footer() {
           <span>© {new Date().getFullYear()} Kennedy Consulting & Coaching</span>
         </div>
         <div className="tracking-wide text-xs uppercase">
-          Speak with confidence · Communicate with impact
+          Speak with confidence · Communicate with impact · Advance your career
         </div>
       </div>
     </footer>
