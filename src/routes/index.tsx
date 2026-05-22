@@ -514,6 +514,7 @@ function Landing() {
       <Overview />
       <Challenges />
       <Outcomes />
+      <Testimonials />
       <Participants />
       <Facilitator />
       <CTA />
