@@ -115,7 +115,7 @@ function Hero() {
   );
 }
 
-function Stat({ value, label }: { value: string; label: string }) {
+function Stat({ value, label }: { value: string; label: React.ReactNode }) {
   return (
     <div>
       <dt className="text-2xl text-gold font-display">{value}</dt>
