@@ -104,7 +104,7 @@ function Hero() {
             </a>
           </div>
 
-          <dl className="mt-20 grid grid-cols-2 sm:grid-cols-3 gap-8 max-w-2xl border-t border-ivory/15 pt-10">
+          <dl className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-12 border-t border-ivory/15 pt-10">
             <Stat value="9+ yrs" label="International experience" />
             <Stat value="5 Global Regions" label="LATAM, NORTH AMERICA, EUROPE, MIDDLE EAST, ASIA - PACIFIC" />
             <Stat value="100%" label="Tailored to your business context" />
