@@ -286,6 +286,51 @@ function Outcomes() {
   );
 }
 
+const testimonials = [
+  {
+    quote:
+      "If you need Business English classes or general English classes, you should take them with Ian. I have studied with him for about six months and I'm more confident and fluent. I recommend 100%.",
+    name: "Marcelo",
+    title: "Tax Compliance Manager",
+  },
+  {
+    quote:
+      "I started practicing my English with Ian even before working in a fully English-speaking environment. Once again, with his guidance, I have polished key aspects of my communication.",
+    name: "Constanza",
+    title: "Sales Manager",
+  },
+];
+
+function Testimonials() {
+  return (
+    <section className="bg-navy text-ivory py-24 lg:py-36">
+      <div className="mx-auto max-w-5xl px-6 lg:px-12 text-center">
+        <div className="flex items-center justify-center gap-3 mb-6">
+          <span className="h-px w-8 bg-gold" />
+          <span className="eyebrow text-gold">Testimonials</span>
+          <span className="h-px w-8 bg-gold" />
+        </div>
+        <h2 className="text-3xl lg:text-5xl text-ivory leading-[1.1]">
+          In their <em className="italic font-light text-gold">own words.</em>
+        </h2>
+
+        <div className="mt-16 space-y-16">
+          {testimonials.map((t) => (
+            <figure key={t.name}>
+              <blockquote className="text-lg lg:text-xl text-ivory/85 italic font-light leading-relaxed max-w-3xl mx-auto">
+                &ldquo;{t.quote}&rdquo;
+              </blockquote>
+              <figcaption className="mt-6 text-ivory font-semibold">
+                {t.name} - {t.title}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const participants = [
   { t: "Senior leaders & executives", d: "Managing global teams or representing the business with international stakeholders." },
   { t: "Managers in multinationals", d: "Operating daily across HQ and regional offices in English as a working language." },
@@ -469,6 +514,7 @@ function Landing() {
       <Overview />
       <Challenges />
       <Outcomes />
+      <Testimonials />
       <Participants />
       <Facilitator />
       <CTA />
