@@ -443,10 +443,29 @@ function Footer() {
   );
 }
 
+function HeroVideo() {
+  return (
+    <section className="bg-navy-deep">
+      <div className="w-full aspect-video overflow-hidden">
+        <video
+          src="/hero.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </section>
+  );
+}
+
 function Landing() {
   return (
     <main>
       <Hero />
+      <HeroVideo />
       <Overview />
       <Challenges />
       <Outcomes />
