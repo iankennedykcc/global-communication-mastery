@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Linkedin } from "lucide-react";
 import logo from "@/assets/kcc-logo.png";
 import hero from "@/assets/hero-architecture.jpg";
 import facilitator from "@/assets/facilitator.jpg";
