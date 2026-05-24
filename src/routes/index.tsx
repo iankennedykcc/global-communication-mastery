@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Linkedin } from "lucide-react";
 import logo from "@/assets/kcc-logo.png";
 import hero from "@/assets/hero-architecture.jpg";
 import facilitator from "@/assets/facilitator.jpg";
@@ -374,7 +375,24 @@ function Facilitator() {
                 height={1280}
                 className="w-full aspect-[4/5] object-cover grayscale"
               />
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gold hidden lg:block" />
+              <a
+                href="https://www.linkedin.com/in/ianpatrickkennedy"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Ian Kennedy on LinkedIn"
+                className="absolute -bottom-4 -right-4 w-24 h-24 bg-gold hidden lg:flex items-center justify-center text-navy hover:bg-gold-soft transition"
+              >
+                <Linkedin className="w-10 h-10" strokeWidth={1.5} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ianpatrickkennedy"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Ian Kennedy on LinkedIn"
+                className="absolute bottom-3 right-3 w-12 h-12 bg-gold flex items-center justify-center text-navy hover:bg-gold-soft transition lg:hidden"
+              >
+                <Linkedin className="w-6 h-6" strokeWidth={1.5} />
+              </a>
             </div>
           </div>
           <div className="lg:col-span-7">
