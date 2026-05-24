@@ -164,7 +164,7 @@ function Overview() {
             <div className="mt-12 grid sm:grid-cols-3 gap-px bg-border">
               <Tile k="Format" v="Live virtual or in-person, modular" />
               <Tile k="Duration" v="6 – 12 weeks, customized" />
-              <Tile k="Cohort" v="1:1, small group, or team intact" />
+              <Tile k="Cohort" v="1:1, small group, intact team, or open-enrollment" />
             </div>
           </div>
         </div>
