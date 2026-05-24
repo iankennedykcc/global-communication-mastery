@@ -332,10 +332,10 @@ function Testimonials() {
 }
 
 const participants = [
-  { t: "Senior leaders & executives", d: "Managing global teams or representing the business with international stakeholders." },
+  { t: "High-potential professionals", d: "Preparing for expanded international scope, secondments or board exposure." },
   { t: "Managers in multinationals", d: "Operating daily across HQ and regional offices in English as a working language." },
   { t: "L&D and HR partners", d: "Designing communication and leadership development for global workforces." },
-  { t: "High-potential professionals", d: "Preparing for expanded international scope, secondments or board exposure." },
+  { t: "Senior leaders & executives", d: "Managing global teams or representing the business with international stakeholders." },
 ];
 
 function Participants() {
