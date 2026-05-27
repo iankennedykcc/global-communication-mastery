@@ -468,13 +468,13 @@ function CTA() {
   );
 }
 
-function ContactBlock({ label, value, href, nowrap }: { label: string; value: React.ReactNode; href?: string; nowrap?: boolean }) {
-  const inner = <span className={`text-ivory hover:text-gold transition ${nowrap ? "whitespace-nowrap" : ""}`}>{value}</span>;
+function ContactBlock({ label, value, href, nowrap, center }: { label: string; value: React.ReactNode; href?: string; nowrap?: boolean; center?: boolean }) {
+  const inner = <span className={`text-ivory hover:text-gold transition ${nowrap ? "whitespace-nowrap" : ""} ${center ? "block text-center" : ""}`}>{value}</span>;
   return (
-    <div>
-      <div className="eyebrow text-gold/80 mb-2">{label}</div>
+    <div className={center ? "text-center w-full sm:w-auto" : ""}>
+      <div className={`eyebrow text-gold/80 mb-2 ${center ? "text-center" : ""}`}>{label}</div>
       {href ? (
-        <a href={href} target="_blank" rel="noreferrer">
+        <a href={href} target="_blank" rel="noreferrer" className={center ? "inline-block" : ""}>
           {inner}
         </a>
       ) : (
