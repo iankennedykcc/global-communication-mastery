@@ -461,7 +461,7 @@ function CTA() {
         <div className="mt-16 pt-10 border-t border-ivory/15 flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-4 text-left">
           <ContactBlock label={t("cta.email")} value="kennedyconsultingcoaching@gmail.com" nowrap />
           <ContactBlock label={t("cta.whatsapp")} value="+56 9 7387 6381" />
-          <ContactBlock label={t("cta.linkedin")} value={<Linkedin size={20} />} href="https://www.linkedin.com/in/ianpatrickkennedy" />
+          <ContactBlock label={t("cta.linkedin")} value={<Linkedin size={20} />} href="https://www.linkedin.com/in/ianpatrickkennedy" center />
         </div>
       </div>
     </section>
