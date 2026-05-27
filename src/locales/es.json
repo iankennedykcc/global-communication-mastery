@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "workshop": "Programa",
+    "outcomes": "Resultados",
+    "participants": "Participantes",
+    "facilitator": "Facilitador",
+    "cta": "Solicitar una sesión"
+  },
+  "hero": {
+    "eyebrow": "Programa Insignia",
+    "title": "Comunicación Clara en Inglés en",
+    "titleEm": "Entornos de Negocios Globales.",
+    "subtitle": "Un programa práctico y de nivel ejecutivo para profesionales y equipos que lideran, negocian e influyen a través de fronteras — donde el inglés es el idioma de trabajo y la claridad define los resultados.",
+    "btnPrimary": "Reservar una llamada inicial",
+    "btnSecondary": "Explorar el programa",
+    "stats": [
+      { "value": "9+ años", "label": ["Experiencia internacional"] },
+      { "value": "5 Regiones Globales", "label": ["LATAM, NORTEAMÉRICA,", "EUROPA, MEDIO ORIENTE,", "ASIA - PACÍFICO"] },
+      { "value": "100%", "label": ["Adaptado a tu contexto empresarial"] }
+    ]
+  },
+  "overview": {
+    "eyebrow": "Descripción del Programa",
+    "title": "Hablar el idioma de trabajo no es lo mismo que",
+    "titleEm": "tener voz propia.",
+    "para1": "Este programa insignia está diseñado para profesionales y equipos que trabajan diariamente en inglés con contrapartes internacionales. Vamos más allá de los ejercicios gramaticales y el vocabulario empresarial genérico para construir las habilidades de comunicación estructural, estratégica e intercultural que definen la credibilidad a nivel ejecutivo.",
+    "para2": "Las sesiones se construyen en torno a tus reuniones reales, presentaciones y conversaciones con stakeholders. Cada participante se va con una voz más nítida, una estructura más clara y la confianza para ser entendido desde la primera vez.",
+    "tiles": [
+      { "k": "Formato", "v": "Virtual en vivo o presencial, modular" },
+      { "k": "Duración", "v": "6 – 12 semanas, personalizado" },
+      { "k": "Grupo", "v": "1:1, grupo reducido, equipo completo o inscripción abierta" }
+    ]
+  },
+  "challenges": {
+    "eyebrow": "El Desafío",
+    "title": "Lo que se pierde en la traducción rara vez son las palabras.",
+    "intro": "Trabajamos con las seis brechas de comunicación que silenciosamente le cuestan a los equipos internacionales tiempo, negocios y credibilidad cada día.",
+    "items": [
+      { "n": "01", "t": "Hablar bajo presión", "d": "Sostener la atención en una reunión de directorio, defender una posición o pensar sobre la marcha en una negociación en tu segundo idioma." },
+      { "n": "02", "t": "Estructurar ideas complejas", "d": "Traducir contenido técnico, financiero o estratégico denso en narrativas claras y persuasivas que una audiencia global pueda seguir." },
+      { "n": "03", "t": "Matices interculturales", "d": "Leer los códigos implícitos entre contrapartes de EE.UU., Europa, LATAM y APAC — directness, jerarquía, silencios, desacuerdo." },
+      { "n": "04", "t": "Credibilidad escrita", "d": "Correos, informes y propuestas que llegan con el tono y el peso adecuados — no solo gramaticalmente correctos, sino redactados a nivel ejecutivo." },
+      { "n": "05", "t": "Dominar el espacio virtual", "d": "Captar la atención en video, en reuniones híbridas y en canales asíncronos donde la presencia debe ser construida estratégicamente." },
+      { "n": "06", "t": "Brecha de confianza", "d": "Cerrar la distancia entre lo que tus personas saben y lo que realmente dicen — especialmente bajo la mirada de stakeholders de alto nivel." }
+    ]
+  },
+  "outcomes": {
+    "eyebrow": "Resultados de Aprendizaje",
+    "title": "Con qué se van",
+    "titleEm": "los participantes.",
+    "intro": "Los resultados se definen junto con RRHH, L&D o el participante al inicio del programa, y se miden al cierre.",
+    "items": [
+      "Presentar ideas complejas con claridad, estructura y presencia ejecutiva en inglés.",
+      "Liderar y contribuir en reuniones internacionales con confianza e influencia.",
+      "Negociar, expresar desacuerdo y alinear entre culturas sin perder matices ni autoridad.",
+      "Redactar correos, informes y propuestas que resulten creíbles en cualquier nivel de seniority.",
+      "Manejar preguntas, objeciones y conversaciones difíciles con composura bajo presión.",
+      "Construir un estilo de comunicación personal — no genérico — que funcione a nivel global."
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonios",
+    "title": "En sus",
+    "titleEm": "propias palabras.",
+    "items": [
+      { "quote": "Si necesitas clases de inglés de negocios o inglés general, deberías tomarlas con Ian. He estudiado con él durante aproximadamente seis meses y tengo más confianza y fluidez. Lo recomiendo al 100%.", "name": "Marcelo", "title": "Gerente de Cumplimiento Fiscal" },
+      { "quote": "Comencé a practicar mi inglés con Ian incluso antes de trabajar en un entorno completamente en inglés. Una vez más, con su orientación, he perfeccionado aspectos clave de mi comunicación.", "name": "Constanza", "title": "Gerente de Ventas" }
+    ]
+  },
+  "participants": {
+    "eyebrow": "Participantes Ideales",
+    "title": "Diseñado para quienes",
+    "titleEm": "ya están en la sala.",
+    "items": [
+      { "t": "Profesionales de alto potencial", "d": "En preparación para mayor alcance internacional, movilidades o exposición a nivel directorio." },
+      { "t": "Gerentes en multinacionales", "d": "Que operan diariamente entre casa matriz y oficinas regionales en inglés como idioma de trabajo." },
+      { "t": "Socios de L&D y RRHH", "d": "Diseñando comunicación y desarrollo de liderazgo para fuerzas laborales globales." },
+      { "t": "Líderes ejecutivos y directivos", "d": "Gestionando equipos globales o representando a la empresa ante stakeholders internacionales." }
+    ]
+  },
+  "facilitator": {
+    "eyebrow": "Facilitador",
+    "subtitle": "Fundador · Kennedy Consulting & Coaching",
+    "para1": "Consultor y coach de comunicación bilingüe, nativo americano, con más de 9 años de experiencia internacional en América Latina, Norteamérica, Europa, Medio Oriente y Asia. Ian trabaja con profesionales y equipos dentro de multinacionales donde el inglés lleva el peso del negocio.",
+    "para2": "Su enfoque combina comunicación ejecutiva, pensamiento estructurado y fluidez intercultural — anclado en contextos de negocio reales en lugar de un currículo genérico. Sus clientes han incluido profesionales de PLACEHOLDER CLIENTS y otras organizaciones globales.",
+    "tiles": [
+      { "k": "Con sede en", "v": "Santiago, Chile" },
+      { "k": "Idiomas", "v": "Inglés · Español" },
+      { "k": "Certificación", "v": "Enseñanza del Inglés como Lengua Extranjera (TEFL) · 9+ años" }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Próximo Paso",
+    "title": "Lleva este programa a",
+    "titleEm": "tu organización.",
+    "intro": "Solicita una llamada de presentación de 20 minutos. Hablaremos de tu equipo, tus prioridades de comunicación y cómo el programa puede adaptarse a tu contexto.",
+    "email": "Correo",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Habla con confianza · Comunica con impacto · Impulsa tu carrera"
+  }
+}

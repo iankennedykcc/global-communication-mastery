@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "workshop": "Workshop",
+    "outcomes": "Outcomes",
+    "participants": "Participants",
+    "facilitator": "Facilitator",
+    "cta": "Request a briefing"
+  },
+  "hero": {
+    "eyebrow": "Flagship Workshop",
+    "title": "Communicating Clearly in English in",
+    "titleEm": "Global Business Environments.",
+    "subtitle": "A practical, executive-level program for professionals and teams who lead, negotiate and influence across borders — where English is the working language and clarity defines outcomes.",
+    "btnPrimary": "Book a discovery call",
+    "btnSecondary": "Explore the program",
+    "stats": [
+      { "value": "9+ yrs", "label": ["International experience"] },
+      { "value": "5 Global Regions", "label": ["LATAM, NORTH AMERICA,", "EUROPE, MIDDLE EAST,", "ASIA - PACIFIC"] },
+      { "value": "100%", "label": ["Tailored to your business context"] }
+    ]
+  },
+  "overview": {
+    "eyebrow": "Workshop Overview",
+    "title": "A working language is not the same as",
+    "titleEm": "a working voice.",
+    "para1": "This flagship program is designed for professionals and intact teams who operate daily in English with international counterparts. We move beyond grammar drills and generic business vocabulary to build the structural, strategic and cross-cultural communication skills that define credibility at a senior level.",
+    "para2": "Sessions are built around your real meetings, presentations and stakeholder conversations. Every participant leaves with a sharper voice, a clearer structure, and the confidence to be understood the first time.",
+    "tiles": [
+      { "k": "Format", "v": "Live virtual or in-person, modular" },
+      { "k": "Duration", "v": "6 – 12 weeks, customized" },
+      { "k": "Cohort", "v": "1:1, small group, intact team, or open-enrollment" }
+    ]
+  },
+  "challenges": {
+    "eyebrow": "The Challenge",
+    "title": "What gets lost in translation is rarely the words.",
+    "intro": "We work with the six communication gaps that quietly cost international teams time, deals and credibility every day.",
+    "items": [
+      { "n": "01", "t": "Speaking under pressure", "d": "Holding the room in a board meeting, defending a position, or thinking on your feet in a negotiation conducted in your second language." },
+      { "n": "02", "t": "Structuring complex ideas", "d": "Translating dense technical, financial or strategic content into clear, persuasive narratives that a global audience can follow." },
+      { "n": "03", "t": "Cross-cultural nuance", "d": "Reading the unspoken codes across US, European, LATAM and APAC counterparts — directness, hierarchy, silence, disagreement." },
+      { "n": "04", "t": "Written credibility", "d": "Emails, reports and proposals that land with the right tone and weight — not just grammatically correct, but executively phrased." },
+      { "n": "05", "t": "Owning the virtual room", "d": "Commanding attention on video, in hybrid meetings and across asynchronous channels where presence has to be engineered." },
+      { "n": "06", "t": "Confidence gap", "d": "Closing the distance between what your people know and what they actually say — particularly under scrutiny from senior stakeholders." }
+    ]
+  },
+  "outcomes": {
+    "eyebrow": "Learning Outcomes",
+    "title": "What participants",
+    "titleEm": "walk away with.",
+    "intro": "Outcomes are defined together with HR, L&D or the participant at the start of the engagement, and measured at the close.",
+    "items": [
+      "Present complex ideas with clarity, structure and executive presence in English.",
+      "Lead and contribute to international meetings with confidence and influence.",
+      "Negotiate, push back and align across cultures without losing nuance or authority.",
+      "Write emails, reports and proposals that read as credible at any seniority level.",
+      "Handle Q&A, objections and difficult conversations with composure under pressure.",
+      "Build a personal communication style — not a generic one — that travels globally."
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "In their",
+    "titleEm": "own words.",
+    "items": [
+      { "quote": "If you need Business English classes or general English classes, you should take them with Ian. I have studied with him for about six months and I'm more confident and fluent. I recommend 100%.", "name": "Marcelo", "title": "Tax Compliance Manager" },
+      { "quote": "I started practicing my English with Ian even before working in a fully English-speaking environment. Once again, with his guidance, I have polished key aspects of my communication.", "name": "Constanza", "title": "Sales Manager" }
+    ]
+  },
+  "participants": {
+    "eyebrow": "Ideal Participants",
+    "title": "Designed for those",
+    "titleEm": "already in the room.",
+    "items": [
+      { "t": "High-potential professionals", "d": "Preparing for expanded international scope, secondments or board exposure." },
+      { "t": "Managers in multinationals", "d": "Operating daily across HQ and regional offices in English as a working language." },
+      { "t": "L&D and HR partners", "d": "Designing communication and leadership development for global workforces." },
+      { "t": "Senior leaders & executives", "d": "Managing global teams or representing the business with international stakeholders." }
+    ]
+  },
+  "facilitator": {
+    "eyebrow": "Facilitator",
+    "subtitle": "Founder · Kennedy Consulting & Coaching",
+    "para1": "A bilingual US-native communication consultant and coach with over 9 years of international experience across Latin America, North America, Europe, the Middle East and Asia. Ian works with professionals and teams inside multinationals where English carries the weight of the business.",
+    "para2": "His approach blends executive communication, structured thinking and cross-cultural fluency — grounded in real business contexts rather than generic curriculum. Clients have included professionals from PLACEHOLDER CLIENTS and other global organizations.",
+    "tiles": [
+      { "k": "Based in", "v": "Santiago, Chile" },
+      { "k": "Languages", "v": "English · Spanish" },
+      { "k": "Certification", "v": "Teaching English as a Foreign Language (TEFL) · 9+ yrs" }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Next Step",
+    "title": "Bring this workshop to",
+    "titleEm": "your organization.",
+    "intro": "Request a 20-minute briefing call. We will discuss your team, your communication priorities and how the program can be tailored to your context.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Speak with confidence · Communicate with impact · Advance your career"
+  }
+}
