@@ -461,20 +461,20 @@ function CTA() {
         <div className="mt-16 pt-10 border-t border-ivory/15 flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-4 text-left">
           <ContactBlock label={t("cta.email")} value="kennedyconsultingcoaching@gmail.com" nowrap />
           <ContactBlock label={t("cta.whatsapp")} value="+56 9 7387 6381" />
-          <ContactBlock label={t("cta.linkedin")} value={<Linkedin size={20} />} href="https://www.linkedin.com/in/ianpatrickkennedy" />
+          <ContactBlock label={t("cta.linkedin")} value={<Linkedin size={20} />} href="https://www.linkedin.com/in/ianpatrickkennedy" center />
         </div>
       </div>
     </section>
   );
 }
 
-function ContactBlock({ label, value, href, nowrap }: { label: string; value: React.ReactNode; href?: string; nowrap?: boolean }) {
-  const inner = <span className={`text-ivory hover:text-gold transition ${nowrap ? "whitespace-nowrap" : ""}`}>{value}</span>;
+function ContactBlock({ label, value, href, nowrap, center }: { label: string; value: React.ReactNode; href?: string; nowrap?: boolean; center?: boolean }) {
+  const inner = <span className={`text-ivory hover:text-gold transition ${nowrap ? "whitespace-nowrap" : ""} ${center ? "block text-center" : ""}`}>{value}</span>;
   return (
-    <div>
-      <div className="eyebrow text-gold/80 mb-2">{label}</div>
+    <div className={center ? "text-center w-full sm:w-auto" : ""}>
+      <div className={`eyebrow text-gold/80 mb-2 ${center ? "text-center" : ""}`}>{label}</div>
       {href ? (
-        <a href={href} target="_blank" rel="noreferrer">
+        <a href={href} target="_blank" rel="noreferrer" className={center ? "inline-block" : ""}>
           {inner}
         </a>
       ) : (
