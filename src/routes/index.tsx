@@ -414,7 +414,44 @@ function Facilitator() {
     </section>
   );
 }
+// ── FAQ ───────────────────────────────────────────────────────────────────────
 
+function FAQ() {
+  const { t } = useTranslation();
+  const items = t("faq.items", { returnObjects: true }) as { q: string; a: string }[];
+
+  return (
+    <section id="faq" className="bg-navy text-ivory py-24 lg:py-36">
+      <div className="mx-auto max-w-5xl px-6 lg:px-12">
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <span className="h-px w-8 bg-gold" />
+            <span className="eyebrow text-gold">{t("faq.eyebrow")}</span>
+            <span className="h-px w-8 bg-gold" />
+          </div>
+          <h2 className="text-3xl lg:text-5xl text-ivory leading-[1.1] font-display font-light">
+            {t("faq.title")}
+          </h2>
+        </div>
+
+        <Accordion type="single" collapsible className="divide-y divide-ivory/10">
+          {items.map((item, i) => (
+            <AccordionItem key={i} value={`faq-${i}`} className="border-0">
+              <AccordionTrigger className="text-lg font-display font-light text-ivory hover:text-gold py-6 [&>svg]:text-gold [&>svg]:w-5 [&>svg]:h-5 transition-colors duration-200 hover:no-underline">
+                {item.q}
+              </AccordionTrigger>
+              <AccordionContent className="text-ivory/70 font-light leading-relaxed text-base pb-6">
+                {item.a}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </div>
+    </section>
+  );
+}
+
+// ── CTA ───────────────────────────────────────────────────────────────────────
 // ── CTA ───────────────────────────────────────────────────────────────────────
 
 function CTA() {
@@ -533,6 +570,7 @@ function Landing() {
       <Testimonials />
       <Participants />
       <Facilitator />
+      <FAQ />
       <CTA />
       <Footer />
     </main>
