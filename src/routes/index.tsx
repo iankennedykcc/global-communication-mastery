@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useTranslation } from "react-i18next";
 import { Linkedin } from "lucide-react";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import logo from "@/assets/kcc-logo.png";
 import hero from "@/assets/hero-architecture.jpg";
 import facilitator from "@/assets/facilitator.jpg";
-
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -90,12 +90,11 @@ function Nav() {
             <div className="text-ivory/60 text-[10px] tracking-[0.2em]">CONSULTING & COACHING</div>
           </div>
         </a>
-        <nav className="hidden md:flex items-center gap-10 text-sm text-ivory/80">
           <a href="#workshop" className="hover:text-gold transition">{t("nav.workshop")}</a>
           <a href="#outcomes" className="hover:text-gold transition">{t("nav.outcomes")}</a>
           <a href="#participants" className="hover:text-gold transition">{t("nav.participants")}</a>
           <a href="#facilitator" className="hover:text-gold transition">{t("nav.facilitator")}</a>
-        </nav>
+          <a href="#faq" className="hover:text-gold transition">{t("nav.faq")}</a>
         <div className="flex items-center gap-4">
           <LangToggle />
           <a
