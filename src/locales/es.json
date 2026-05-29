@@ -89,7 +89,6 @@
       { "k": "Idiomas", "v": "Inglés · Español" },
       { "k": "Certificación", "v": "Enseñanza del Inglés como Lengua Extranjera (TEFL) · 9+ años" }
     ]
-  },
   "cta": {
     "eyebrow": "Próximo Paso",
     "title": "Lleva este programa a",
@@ -99,7 +98,22 @@
     "whatsapp": "WhatsApp",
     "linkedin": "LinkedIn"
   },
+  "faq": {
+    "eyebrow": "Preguntas Frecuentes",
+    "title": "Respuestas a las preguntas más frecuentes sobre el formato del taller, la audiencia, la personalización y la entrega.",
+    "items": [
+      { "q": "¿Es una clase de inglés?", "a": "No. Este taller se centra en la comunicación profesional en inglés dentro de entornos empresariales reales. El énfasis está en reuniones, presentaciones, comunicación con stakeholders y comunicarse con claridad bajo presión, en lugar de la instrucción lingüística tradicional." },
+      { "q": "¿Qué nivel de inglés se recomienda?", "a": "El taller está generalmente diseñado para profesionales con un nivel intermedio a avanzado de inglés (aproximadamente B1-C1). El contenido y las actividades pueden adaptarse según las necesidades del grupo." },
+      { "q": "¿Se puede personalizar el taller para nuestra organización?", "a": "Sí. Cada programa se adapta a los objetivos de comunicación del cliente, el contexto empresarial, la industria y el perfil de los participantes." },
+      { "q": "¿El taller se imparte virtualmente o presencialmente?", "a": "Ambas opciones están disponibles. Las sesiones pueden impartirse virtualmente, presencialmente o en formato híbrido, según las necesidades y ubicación de tu equipo." },
+      { "q": "¿Para quién está diseñado este taller?", "a": "El taller es ideal para profesionales, gerentes y líderes que se comunican regularmente en inglés con colegas, clientes, la casa matriz o stakeholders en entornos empresariales internacionales." },
+      { "q": "¿Cuántos participantes pueden asistir?", "a": "Los talleres suelen diseñarse para grupos de hasta 12 participantes para fomentar la discusión, la interacción y la aplicación práctica. También se pueden conversar formatos para grupos más grandes." },
+      { "q": "¿Qué diferencia este taller de la capacitación tradicional en inglés de negocios?", "a": "El enfoque no es solo la precisión del idioma, sino la efectividad de la comunicación. Los participantes trabajan en cómo se comunican en situaciones empresariales reales, incluyendo reuniones, presentaciones, actualizaciones e interacciones con stakeholders." },
+      { "q": "¿Qué sucede después del taller?", "a": "Según las necesidades del cliente, los talleres pueden ir seguidos de coaching individual, sesiones adicionales en equipo o programas de desarrollo personalizados enfocados en objetivos específicos de comunicación." }
+    ]
+  },
   "footer": {
     "tagline": "Habla con confianza · Comunica con impacto · Impulsa tu carrera"
   }
+}
 }
