@@ -4,6 +4,7 @@
     "outcomes": "Outcomes",
     "participants": "Participants",
     "facilitator": "Facilitator",
+    "faq": "FAQ",
     "cta": "Request a briefing"
   },
   "hero": {
@@ -87,8 +88,7 @@
       { "k": "Based in", "v": "Santiago, Chile" },
       { "k": "Languages", "v": "English · Spanish" },
       { "k": "Certification", "v": "Teaching English as a Foreign Language (TEFL) · 9+ yrs" }
-    ]
-  },
+    ],
   "cta": {
     "eyebrow": "Next Step",
     "title": "Bring this workshop to",
@@ -98,7 +98,22 @@
     "whatsapp": "WhatsApp",
     "linkedin": "LinkedIn"
   },
+  "faq": {
+    "eyebrow": "Common Questions",
+    "title": "Answers to frequently asked questions about workshop format, audience, customization, and delivery.",
+    "items": [
+      { "q": "Is this an English class?", "a": "No. This workshop focuses on professional communication in English within real business environments. The emphasis is on meetings, presentations, stakeholder communication, and communicating clearly under pressure rather than traditional language instruction." },
+      { "q": "What English level is recommended?", "a": "The workshop is generally designed for professionals with an intermediate to advanced level of English (approximately B1-C1). Content and activities can be adapted based on the needs of the group." },
+      { "q": "Can the workshop be customized for our organization?", "a": "Yes. Every engagement is tailored to the client's communication goals, business context, industry, and participant profile." },
+      { "q": "Is the workshop delivered virtually or in person?", "a": "Both options are available. Sessions can be delivered virtually, in person, or in a hybrid format depending on your team's needs and location." },
+      { "q": "Who is this workshop designed for?", "a": "The workshop is ideal for professionals, managers, and leaders who regularly communicate in English with colleagues, clients, headquarters, or stakeholders in international business environments." },
+      { "q": "How many participants can attend?", "a": "Workshops are typically designed for groups of up to 12 participants to encourage discussion, interaction, and practical application. Larger group formats can also be discussed." },
+      { "q": "What makes this different from traditional Business English training?", "a": "The focus is not only on language accuracy, but on communication effectiveness. Participants work on how they communicate in real business situations, including meetings, presentations, updates, and stakeholder interactions." },
+      { "q": "What happens after the workshop?", "a": "Depending on the client's needs, workshops can be followed by individual coaching, additional team sessions, or customized development programs focused on specific communication goals." }
+    ]
+  },
   "footer": {
     "tagline": "Speak with confidence · Communicate with impact · Advance your career"
   }
+}
 }
