@@ -449,6 +449,42 @@ function FAQ() {
               The workshop is generally designed for professionals with an intermediate to advanced level of English, approximately B1-C1. Content and activities can be adapted based on the needs of the group.
             </p>
           </div>
+          <div className="border-t border-ivory/10 pt-12">
+            <h3 className="text-xl text-ivory mb-4">Can the workshop be customized for our organization?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              Yes. Every engagement is tailored to the client’s communication goals, business context, industry, and participant profile.
+            </p>
+          </div>
+          <div className="border-t border-ivory/10 pt-12">
+            <h3 className="text-xl text-ivory mb-4">Is the workshop delivered virtually or in person?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              Both options are available. Sessions can be delivered virtually, in person, or in a hybrid format depending on your team’s needs and location.
+            </p>
+          </div>
+          <div className="border-t border-ivory/10 pt-12">
+            <h3 className="text-xl text-ivory mb-4">Who is this workshop designed for?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              The workshop is ideal for professionals, managers, and leaders who regularly communicate in English with colleagues, clients, headquarters, or stakeholders in international business environments.
+            </p>
+          </div>
+          <div className="border-t border-ivory/10 pt-12">
+            <h3 className="text-xl text-ivory mb-4">How many participants can attend?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              Workshops are typically designed for groups of up to 12 participants to encourage discussion, interaction, and practical application. Larger group formats can also be discussed.
+            </p>
+          </div>
+          <div className="border-t border-ivory/10 pt-12">
+            <h3 className="text-xl text-ivory mb-4">What makes this different from traditional Business English training?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              The focus is not only on language accuracy, but on communication effectiveness. Participants work on how they communicate in real business situations, including meetings, presentations, updates, and stakeholder interactions.
+            </p>
+          </div>
+          <div className="border-t border-ivory/10 pt-12">
+            <h3 className="text-xl text-ivory mb-4">What happens after the workshop?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              Depending on the client’s needs, workshops can be followed by individual coaching, additional team sessions, or customized development programs focused on specific communication goals.
+            </p>
+          </div>
         </div>
       </div>
     </section>
