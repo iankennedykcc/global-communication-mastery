@@ -416,6 +416,45 @@ function Facilitator() {
   );
 }
 
+// ── FAQ ─────────────────────────────────────────────────────────────────────────
+
+function FAQ() {
+  return (
+    <section id="faq" className="bg-navy text-ivory py-24 lg:py-36">
+      <div className="mx-auto max-w-4xl px-6 lg:px-12">
+        <div className="text-center">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <span className="h-px w-8 bg-gold" />
+            <span className="eyebrow text-gold">Common Questions</span>
+            <span className="h-px w-8 bg-gold" />
+          </div>
+          <h2 className="text-3xl lg:text-5xl text-ivory leading-[1.1]">
+            Common Questions
+          </h2>
+          <p className="mt-6 text-lg text-ivory/70 leading-relaxed font-light max-w-2xl mx-auto">
+            Answers to common questions about workshop format, audience, customization, and delivery.
+          </p>
+        </div>
+
+        <div className="mt-16 space-y-12">
+          <div>
+            <h3 className="text-xl text-ivory mb-4">Is this an English class?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              No. This workshop focuses on professional communication in English within real business environments. The emphasis is on meetings, presentations, stakeholder communication, and communicating clearly under pressure rather than traditional language instruction.
+            </p>
+          </div>
+          <div className="border-t border-ivory/10 pt-12">
+            <h3 className="text-xl text-ivory mb-4">What English level is recommended?</h3>
+            <p className="text-ivory/65 leading-relaxed font-light">
+              The workshop is generally designed for professionals with an intermediate to advanced level of English, approximately B1-C1. Content and activities can be adapted based on the needs of the group.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ── CTA ───────────────────────────────────────────────────────────────────────
 
 function CTA() {
@@ -534,6 +573,7 @@ function Landing() {
       <Testimonials />
       <Participants />
       <Facilitator />
+      <FAQ />
       <CTA />
       <Footer />
     </main>
