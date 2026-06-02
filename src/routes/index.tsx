@@ -333,16 +333,16 @@ function Testimonials() {
           {t("testimonials.intro")}
         </p>
 
-        <div className="mt-20 space-y-24">
+        <div className="mt-16 space-y-16">
           {items.map((item) => (
-            <figure key={item.name} className="py-4">
+            <figure key={item.name}>
               <blockquote className="text-lg lg:text-xl text-ivory/85 italic font-light leading-relaxed max-w-3xl mx-auto">
                 &ldquo;{item.quote}&rdquo;
               </blockquote>
-              <figcaption className="mt-8">
+              <figcaption className="mt-4">
                 <div className="text-ivory font-bold text-base">{item.name}</div>
-                <div className="mt-1.5 text-ivory/60 text-sm font-light">
-                  {item.title} <span className="text-ivory/30 mx-1">|</span> {industries[item.name]}
+                <div className="mt-1.5 text-ivory/60 text-base font-light">
+                  {item.title}, {industries[item.name]}
                 </div>
               </figcaption>
             </figure>
