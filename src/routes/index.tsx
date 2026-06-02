@@ -320,28 +320,39 @@ function Testimonials() {
 
   return (
     <section className="bg-navy text-ivory py-24 lg:py-36">
-      <div className="mx-auto max-w-5xl px-6 lg:px-12 text-center">
-        <div className="flex items-center justify-center gap-3 mb-6">
-          <span className="h-px w-8 bg-gold" />
-          <span className="eyebrow text-gold">{t("testimonials.eyebrow")}</span>
-          <span className="h-px w-8 bg-gold" />
+      <div className="mx-auto max-w-6xl px-6 lg:px-12">
+        <div className="text-center">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <span className="h-px w-8 bg-gold" />
+            <span className="eyebrow text-gold">{t("testimonials.eyebrow")}</span>
+            <span className="h-px w-8 bg-gold" />
+          </div>
+          <h2 className="text-3xl lg:text-5xl text-ivory leading-[1.1]">
+            {t("testimonials.title")} <em className="italic font-light text-gold">{t("testimonials.titleEm")}</em>
+          </h2>
+          <p className="mt-6 text-lg text-ivory/70 leading-relaxed font-light max-w-3xl mx-auto">
+            {t("testimonials.intro")}
+          </p>
         </div>
-        <h2 className="text-3xl lg:text-5xl text-ivory leading-[1.1]">
-          {t("testimonials.title")} <em className="italic font-light text-gold">{t("testimonials.titleEm")}</em>
-        </h2>
-        <p className="mt-6 text-lg text-ivory/70 leading-relaxed font-light max-w-3xl mx-auto">
-          {t("testimonials.intro")}
-        </p>
 
-        <div className="mt-16 space-y-16">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
           {items.map((item) => (
-            <figure key={item.name}>
-              <blockquote className="text-lg lg:text-xl text-ivory/85 italic font-light leading-relaxed max-w-3xl mx-auto">
-                &ldquo;{item.quote}&rdquo;
+            <figure
+              key={item.name}
+              className="relative border border-gold/30 bg-navy-deep/40 p-10 lg:p-12 flex flex-col"
+            >
+              <span
+                aria-hidden="true"
+                className="font-display text-gold/70 text-7xl lg:text-8xl leading-none -mt-2 mb-4 select-none"
+              >
+                &ldquo;
+              </span>
+              <blockquote className="text-lg lg:text-xl text-ivory/85 italic font-light leading-relaxed flex-1">
+                {item.quote}
               </blockquote>
-              <figcaption className="mt-4">
-                <div className="text-ivory font-bold text-base">{item.name}</div>
-                <div className="mt-1.5 text-ivory/60 text-base font-light">
+              <figcaption className="mt-8 pt-6 border-t border-gold/20">
+                <div className="text-ivory font-bold text-lg">{item.name}</div>
+                <div className="mt-1.5 text-ivory/60 text-sm font-light">
                   {item.title}, {industries[item.name]}
                 </div>
               </figcaption>
@@ -349,6 +360,7 @@ function Testimonials() {
           ))}
         </div>
       </div>
+
     </section>
   );
 }
