@@ -313,6 +313,11 @@ function Testimonials() {
   const { t } = useTranslation();
   const items = t("testimonials.items", { returnObjects: true }) as TestimonialItem[];
 
+  const industries: Record<string, string> = {
+    Marcelo: "Financial Services",
+    Constanza: "Mining",
+  };
+
   return (
     <section className="bg-navy text-ivory py-24 lg:py-36">
       <div className="mx-auto max-w-5xl px-6 lg:px-12 text-center">
@@ -324,15 +329,21 @@ function Testimonials() {
         <h2 className="text-3xl lg:text-5xl text-ivory leading-[1.1]">
           {t("testimonials.title")} <em className="italic font-light text-gold">{t("testimonials.titleEm")}</em>
         </h2>
+        <p className="mt-6 text-lg text-ivory/70 leading-relaxed font-light max-w-3xl mx-auto">
+          {t("testimonials.intro")}
+        </p>
 
-        <div className="mt-16 space-y-16">
+        <div className="mt-20 space-y-24">
           {items.map((item) => (
-            <figure key={item.name}>
+            <figure key={item.name} className="py-4">
               <blockquote className="text-lg lg:text-xl text-ivory/85 italic font-light leading-relaxed max-w-3xl mx-auto">
                 &ldquo;{item.quote}&rdquo;
               </blockquote>
-              <figcaption className="mt-6 text-ivory font-semibold">
-                {item.name} - {item.title}
+              <figcaption className="mt-8">
+                <div className="text-ivory font-bold text-base">{item.name}</div>
+                <div className="mt-1.5 text-ivory/60 text-sm font-light">
+                  {item.title} <span className="text-ivory/30 mx-1">|</span> {industries[item.name]}
+                </div>
               </figcaption>
             </figure>
           ))}
