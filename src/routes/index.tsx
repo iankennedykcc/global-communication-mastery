@@ -367,6 +367,18 @@ function Testimonials() {
 
 // ── Participants ──────────────────────────────────────────────────────────────
 
+import participantHighPotential from "@/assets/participant-high-potential.jpg";
+import participantManagers from "@/assets/participant-managers.jpg";
+import participantHr from "@/assets/participant-hr.jpg";
+import participantExecutives from "@/assets/participant-executives.jpg";
+
+const participantImages = [
+  participantHighPotential,
+  participantManagers,
+  participantHr,
+  participantExecutives,
+];
+
 function Participants() {
   const { t } = useTranslation();
   const items = t("participants.items", { returnObjects: true }) as ParticipantItem[];
@@ -378,12 +390,24 @@ function Participants() {
           eyebrow={t("participants.eyebrow")}
           title={<>{t("participants.title")} <em className="italic font-light text-navy/70">{t("participants.titleEm")}</em></>}
         />
-        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {items.map((item) => (
-            <div key={item.t} className="border-t-2 border-gold pt-6">
-              <h3 className="text-xl text-navy mb-3">{item.t}</h3>
-              <p className="text-muted-foreground font-light leading-relaxed text-sm">{item.d}</p>
-            </div>
+        <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+          {items.map((item, i) => (
+            <figure key={item.t} className="flex flex-col border border-navy/10 bg-background">
+              <div className="aspect-[4/3] overflow-hidden bg-navy/5">
+                <img
+                  src={participantImages[i]}
+                  alt={item.t}
+                  loading="lazy"
+                  width={1024}
+                  height={768}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <figcaption className="flex flex-col p-7 lg:p-8 border-t-2 border-gold">
+                <h3 className="text-xl text-navy mb-3">{item.t}</h3>
+                <p className="text-muted-foreground font-light leading-relaxed text-sm">{item.d}</p>
+              </figcaption>
+            </figure>
           ))}
         </div>
       </div>
