@@ -82,12 +82,11 @@
   "facilitator": {
     "eyebrow": "Facilitador",
     "subtitle": "Fundador · Kennedy Consulting & Coaching",
-    "para1": "Consultor y coach de comunicación bilingüe, nativo americano, con más de 9 años de experiencia internacional en América Latina, Norteamérica, Europa, Medio Oriente y Asia. Ian trabaja con profesionales y equipos dentro de multinacionales donde el inglés lleva el peso del negocio.",
-    "para2": "Su enfoque combina comunicación ejecutiva, pensamiento estructurado y fluidez intercultural — anclado en contextos de negocio reales en lugar de un currículo genérico. Sus clientes han incluido profesionales de PLACEHOLDER CLIENTS y otras organizaciones globales.",
+    "para1": "Consultor y coach de comunicación certificado en TEFL (Teaching English as a Foreign Language), nativo de Estados Unidos, que trabaja con fluidez en inglés y español. Con sede en Santiago, Chile, Ian aporta más de 9 años de experiencia internacional en América Latina, Norteamérica, Europa, Medio Oriente y Asia. Trabaja con profesionales y equipos dentro de multinacionales donde el inglés lleva el peso del negocio.",
     "tiles": [
-      { "k": "Con sede en", "v": "Santiago, Chile" },
+      { "k": "Experiencia", "v": "Más de 9 años de experiencia internacional" },
       { "k": "Idiomas", "v": "Inglés · Español" },
-      { "k": "Certificación", "v": "Enseñanza del Inglés como Lengua Extranjera (TEFL) · 9+ años" }
+      { "k": "Certificación", "v": "Certificado TEFL" }
     ]
   },
   "cta": {
