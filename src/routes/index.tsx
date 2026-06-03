@@ -446,10 +446,9 @@ function Facilitator() {
             <h2 className="text-3xl lg:text-5xl text-navy leading-[1.1]">Ian Kennedy</h2>
             <p className="mt-3 text-muted-foreground text-lg font-light">{t("facilitator.subtitle")}</p>
 
-            <div className="mt-8 space-y-5 text-navy/85 leading-relaxed font-light">
-              <p>{t("facilitator.para1")}</p>
-              <p>{t("facilitator.para2")}</p>
-            </div>
+            <p className="mt-8 text-navy/85 leading-relaxed font-light">
+              A US-native, Teaching English as a Foreign Language (TEFL) certified communication consultant and coach who works fluently in both English and Spanish. Based in Santiago, Chile, Ian brings over 9 years of international experience across Latin America, North America, Europe, the Middle East and Asia. He works with professionals and teams inside multinationals where English carries the weight of the business.
+            </p>
 
             <div className="mt-10 grid sm:grid-cols-3 gap-px bg-border">
               {tiles.map((tile) => (
