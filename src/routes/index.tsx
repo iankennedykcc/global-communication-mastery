@@ -435,7 +435,15 @@ function Facilitator() {
                 height={1280}
                 className="w-full aspect-[4/5] object-cover grayscale"
               />
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gold hidden lg:block" />
+              <a
+                href="https://www.linkedin.com/in/ianpatrickkennedy"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ian Kennedy on LinkedIn"
+                className="absolute -bottom-4 -right-4 w-24 h-24 bg-navy hidden lg:flex items-center justify-center hover:bg-navy-deep transition"
+              >
+                <Linkedin className="text-white" size={32} />
+              </a>
             </div>
           </div>
           <div className="lg:col-span-7">
